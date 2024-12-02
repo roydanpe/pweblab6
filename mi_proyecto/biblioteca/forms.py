@@ -4,7 +4,7 @@ from .models import Usuario, Libro, Review
 class UsuarioForm(forms.ModelForm):
     class Meta:
         model = Usuario
-        fields = ['nombre', 'correo']
+        fields = ['nombre', 'email']
 
 class LibroForm(forms.ModelForm):
     class Meta:

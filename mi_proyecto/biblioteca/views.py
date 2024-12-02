@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.shortcuts import render, redirect
 from .forms import UsuarioForm, LibroForm, ReviewForm
-from .models import Usuario, Libro
+from .models import Usuario, Libro, Review
 
 # Vista para crear un usuario
 def crear_usuario(request):
